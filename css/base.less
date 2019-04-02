@@ -1,0 +1,35 @@
+/* 公共样式 */
+@import "index.less";
+// less文件里面套import,less
+@baseColor:#006699;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff;
+}
+/*头部*/ 
+.myHeader{
+  background-color: @baseColor;
+  h1{
+      color: #fff;
+  }
+  a{
+      color: #fff;
+  }
+}
+.mui-content{
+    margin-bottom: 50px;
+}
+
+/*底部*/
+.myBootm{
+    background-color: @baseColor;
+.mui-tab-item{
+    color: #fff;
+    &.mui-active{
+    color: darkorange;
+}
+}
+}

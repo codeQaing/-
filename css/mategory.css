@@ -1,0 +1,101 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.mycontent {
+    width: 100%;
+    height: 100%;
+    padding-top: 44px;
+    margin-bottom: 40px;
+}
+
+.left {
+    width: 100px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    position: relative;
+}
+
+.left .mui-scroll-wrapper ul {
+    width: 100%;
+    height: 100%;
+}
+
+.left .mui-scroll-wrapper ul li {
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    border: 1px solid #ccc;
+}
+
+.left .mui-scroll-wrapper ul li a {
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+    font-size: 22px;
+    color: black;
+}
+
+.right {
+    position: relative;
+    height: 100%;
+    margin-left: 120px;
+}
+
+.right .mui-scroll-wrapper {
+    width: 100%;
+}
+
+.right .mui-scroll-wrapper ul {
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.right .mui-scroll-wrapper ul li {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.right .mui-scroll-wrapper ul li a {
+    width: 100%;
+    display: block;
+}
+
+.right .mui-scroll-wrapper ul li a p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.right .mui-scroll-wrapper ul li a img {
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+}
+
+.active {
+    background-color: #ccc;
+}
+
+.noresult {
+    padding: 10px;
+    font-size: 14px;
+    color: #f20;
+}

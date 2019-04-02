@@ -1,0 +1,95 @@
+.html {
+    height: 100%;
+    width: 100%;
+}
+
+.mui-content.box {
+    padding-bottom: 0px;
+}
+
+.content {
+    height: 70px;
+    padding: 10px;
+    border-bottom: 10px solid #ccc;
+    background-color: #fff;
+}
+
+.content>div {
+    width: 50%;
+    height: 40px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content>div .mui-icon-arrowdown {
+    font-size: 16px;
+}
+
+.product {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+.product .list {
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+.product .list>li {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+
+.product .list>li>a {
+    width: 100%;
+    display: block;
+    padding: 0px 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    overflow: hidden;
+}
+
+.product .list>li>a>img {
+    width: 100%;
+    display: block;
+}
+
+.product .list>li>a .name {
+    height: 40px;
+    line-height: 18px;
+    display: block;
+    text-align: center;
+    color: #ccc;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.product .list>li>a p {
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.product .list>li>a p>span {
+    font-size: 16px;
+}
+
+.product .list>li>a p span:nth-of-type(1) {
+    color: red;
+}
+
+.product .list>li>a p span:nth-of-type(2) {
+    color: #666;
+    text-decoration: line-through;
+    margin-left: 10px;
+}

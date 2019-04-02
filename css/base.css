@@ -1,0 +1,134 @@
+/* 公共样式 */
+/* 产品介绍*/
+.nav-link {
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+.nav-link > li {
+  width: 33.33%;
+  float: left;
+}
+.nav-link > li > a {
+  width: 100%;
+}
+.nav-link > li > a > img {
+  width: 100%;
+  display: block;
+}
+/*品牌专区*/
+.brand {
+  width: 100%;
+}
+.brand > img {
+  width: 100%;
+  display: block;
+}
+.brand ul {
+  width: 100%;
+  list-style: none;
+}
+.brand ul > li {
+  width: 25%;
+  float: left;
+}
+.brand ul > li > a {
+  display: block;
+  width: 100%;
+}
+.brand ul > li > a > img {
+  width: 100%;
+  display: block;
+}
+/*运动生活专区*/
+.product {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+}
+.product > img {
+  width: 100%;
+  display: block;
+}
+.product .list {
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.product .list > li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.product .list > li > a {
+  width: 100%;
+  display: block;
+  padding: 0px 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  overflow: hidden;
+}
+.product .list > li > a > img {
+  width: 100%;
+  display: block;
+}
+.product .list > li > a .name {
+  height: 40px;
+  line-height: 18px;
+  display: block;
+  text-align: center;
+  color: #ccc;
+  overflow: hidden;
+  padding: 6px;
+}
+.product .list > li > a p {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+}
+.product .list > li > a p > span {
+  font-size: 16px;
+}
+.product .list > li > a p span:nth-of-type(1) {
+  color: red;
+}
+.product .list > li > a p span:nth-of-type(2) {
+  color: #666;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fff;
+}
+/*头部*/
+.myHeader {
+  background-color: #006699;
+}
+.myHeader h1 {
+  color: #fff;
+}
+.myHeader a {
+  color: #fff;
+}
+.mui-content {
+  margin-bottom: 50px;
+}
+/*底部*/
+.myBootm {
+  background-color: #006699;
+}
+.myBootm .mui-tab-item {
+  color: #fff;
+}
+.myBootm .mui-tab-item.mui-active {
+  color: darkorange;
+}
